@@ -1,0 +1,43 @@
+<mjml>
+    <mj-body background-color="#EFF3F5">
+        <mj-section background-color="#1192EE">
+            <mj-column>
+                <mj-text
+                    font-size="24px"
+                    color="#FFFFFF"
+                    font-weight="bold"
+                    align="center"
+                >
+                    Se ha creado tu cuenta
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#FFFFFF">
+            <mj-column>
+                <mj-text font-size="16px" color="#6B7280">
+                    Te damos la bienvenida {{ full_name }}.
+                </mj-text>
+                <mj-text font-size="16px" color="#6B7280">
+                    Ahora puedes llevar el control en la plataforma.
+                </mj-text>
+                <mj-button
+                    href="{{ link }}"
+                    border-radius="4px"
+                    background-color="#1192EE"
+                    inner-padding="16px 32px"
+                    font-size="16px"
+                    padding="24px 16px"
+                >
+                    Estrena tu nueva cuenta
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#1192EE">
+            <mj-column>
+                <mj-text color="#FFFFFF" align="center">
+                    Te esperamos pronto en {{ project_name }}
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
